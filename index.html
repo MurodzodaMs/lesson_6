@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
-    
+    <header >
+        <nav class="flex px-4 py-4 gap-4 max-w-7xl m-auto items-center justify-between flex-row">
+             <img src="./src/img/image.png" class="w-[160px] lg:w-[230px]" alt="">
+            <ul class="hidden lg:flex gap-7">
+                <li class="text-xl">О нас</li>
+                <li class="text-xl">Услуги</li>
+                <li class="text-xl">Специалисты</li>
+                <li class="text-xl">Контакты</li>
+            </ul>
+            <div class="flex gap-4">
+                <div class="hidden lg:flex flex-col gap-0 mt-2">
+                    <p>Есть номер! Звоните</p>
+                    <h3 class="text-xl font-bold">+7 495 797 77 35</h3>
+                </div>
+                <button class="hidden lg:block text-white bg-green-600 text-xl py-4 px-8 rounded-full">Заказать звонок</button>
+                <i class="text-green-400 lg:hidden fa-solid text-2xl fa-phone"></i>
+                <i class="fa-solid lg:hidden fa-bars text-2xl"></i>
+            </div>
+        </nav>
+
+        <section class="sec1 flex flex-col px-10 py-10 gap-8 max-w-7xl m-auto items-start justify-between">
+            <aside class="flex flex-col lg:mt-14 w-full lg:w-1/2 gap-5">
+                <h1 class="text-xl font-bold text-white lg:text-6xl"><span class="text-4xl">Подмосковная резиденция</span> <br> "ЛЕСНАЯ УСАДЬБА"</h1>
+                <p class="text-base font-light text-white lg:text-2xl">Пансионат для пожилых <br> премиум-класса</p>
+            </aside>
+
+            <ul class="flex flex-col lg:flex-row justify-between w-full gap-3 mt-20">
+                <li class="text-lg lg:text-2xl font-semibold text-white">Для тех, кто любит своих <br> родных и близких</li>
+                <li class="text-lg lg:text-2xl font-semibold text-white">Безопасная среда <br> и интересный досуг</li>
+                <li class="text-lg lg:text-2xl font-semibold text-white">Долгосрочные и краткосрочные <br> программы пребывания</li>
+            </ul>
+        </section>
+    </header>
 </body>
+
 </html>
