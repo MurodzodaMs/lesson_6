@@ -10,21 +10,23 @@
 </head>
 
 <body>
-    <header>
-        <nav> <img src="./src/img/image.png" alt="">
-            <ul>
-                <li>О нас</li>
-                <li>Услуги</li>
-                <li>Специалисты</li>
-                <li>Контакты</li>
+    <header >
+        <nav class="flex px-4 py-4 gap-4 max-w-7xl m-auto items-center justify-between flex-row">
+             <img src="./src/img/image.png" class="w-[160px] lg:w-[230px]" alt="">
+            <ul class="hidden lg:flex gap-7">
+                <li class="text-xl">О нас</li>
+                <li class="text-xl">Услуги</li>
+                <li class="text-xl">Специалисты</li>
+                <li class="text-xl">Контакты</li>
             </ul>
-            <div>
-                <div>
+            <div class="flex gap-4">
+                <div class="hidden lg:flex flex-col gap-0 mt-2">
                     <p>Есть номер! Звоните</p>
-                    <h3>+7 495 797 77 35</h3>
+                    <h3 class="text-xl font-bold">+7 495 797 77 35</h3>
                 </div>
-                <button>Заказать звонок</button>
-                
+                <button class="hidden lg:block text-white bg-green-600 text-xl py-4 px-8 rounded-full">Заказать звонок</button>
+                <i class="text-green-400 lg:hidden fa-solid text-2xl fa-phone"></i>
+                <i class="fa-solid lg:hidden fa-bars text-2xl"></i>
             </div>
         </nav>
     </header>
